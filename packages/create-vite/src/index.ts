@@ -367,8 +367,8 @@ async function init() {
       console.log('  yarn dev')
       break
     default:
-      console.log(`  ${pkgManager} install`)
-      console.log(`  ${pkgManager} run dev`)
+      console.log(`  ${pkgManager} i`)
+      console.log(`  ${pkgManager} start`)
       break
   }
   console.log()
